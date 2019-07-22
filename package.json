@@ -37,11 +37,13 @@
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/runtime": "7.5.5",
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
     "@react-native-community/eslint-config": "0.0.3",
-    "@storybook/addons": "^5.1.9",
     "@storybook/addon-actions": "^5.1.9",
-    "@storybook/react-native": "^5.1.9",
     "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react-native": "^5.1.9",
     "@storybook/react-native-server": "^5.1.9",
     "babel-jest": "24.8.0",
     "babel-loader": "^8.0.6",
@@ -71,5 +73,10 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }

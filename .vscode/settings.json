@@ -3,6 +3,7 @@
       "@lusiaves": "${workspaceRoot}/src"
     },
     "cSpell.ignoreWords": [
+      "commitlint",
       "prestorybook",
       "rnstl"
     ]
