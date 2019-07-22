@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",
+      "paths": {
+        "@lusiaves/*": [
+          "src/*"
+        ]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }

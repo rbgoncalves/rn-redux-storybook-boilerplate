@@ -1,0 +1,9 @@
+{
+    "path-intellisense.mappings": {
+      "@lusiaves": "${workspaceRoot}/src"
+    },
+    "cSpell.ignoreWords": [
+      "prestorybook",
+      "rnstl"
+    ]
+  }
