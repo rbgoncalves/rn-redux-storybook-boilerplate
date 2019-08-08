@@ -20,7 +20,7 @@
     }
   },
   "dependencies": {
-    "babel-plugin-require-context-hook": "^1.0.0",
+    "i18next": "^17.0.9",
     "native-base": "^2.12.2",
     "prop-types": "^15.7.2",
     "react": "16.8.6",

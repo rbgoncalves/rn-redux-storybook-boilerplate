@@ -9,6 +9,5 @@ module.exports = {
         },
       },
     ],
-    ["require-context-hook"]
   ],
 };

@@ -8,23 +8,14 @@ import StorybookUI from '../../storybook';
 
 const getTabBarIcon = (navigation, tintColor) => {
   const { routeName } = navigation.state;
-  let iconName;
 
-  switch (routeName) {
-    case 'Home':
-      iconName = 'home';
-      break;
-    case 'About':
-      iconName = 'info-outline';
-      break;
-    case 'Storybook':
-      iconName = 'extension';
-      break;
-    default:
-      iconName = null;
-  }
+  const icons = {
+    Home: 'home',
+    About: 'info-outline',
+    Storybook: 'extension',
+  };
 
-  return <Icon name={iconName} size={25} color={tintColor} />;
+  return <Icon name={icons[routeName] || null} size={25} color={tintColor} />;
 };
 
 const TabNavigator = createBottomTabNavigator(
