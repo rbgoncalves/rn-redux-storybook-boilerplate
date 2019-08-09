@@ -1,0 +1,15 @@
+{
+    "pt": {
+        "common": {
+            "chuck": "Conta-me um facto sobre o chuck"
+        },
+        "abc": {
+            "test": "hello world"
+        }
+    },
+    "en": {
+        "common": {
+            "chuck": "Tell me a fact about Chuck"
+        }
+    }
+}

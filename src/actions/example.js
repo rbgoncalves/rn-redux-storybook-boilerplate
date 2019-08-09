@@ -12,7 +12,7 @@ const loadJokeSuccess = joke => ({
 
 export const fetchJoke = () => {
   return dispatch => {
-    get('random?category=dev').then(response => {
+    get('random').then(response => {
       dispatch(loadJokeSuccess(response));
     });
   };

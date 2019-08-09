@@ -1,6 +1,6 @@
 import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-import HomeScreen from '@lusiaves/containers/HomeScreen';
-import AboutScreen from '@lusiaves/containers/AboutScreen';
+import HomeScreen from '@lusiaves/screens/HomeScreen';
+import AboutScreen from '@lusiaves/screens/AboutScreen';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import React from 'react';
 import { NAVIGATION, GREY } from '@lusiaves/constants/colors';

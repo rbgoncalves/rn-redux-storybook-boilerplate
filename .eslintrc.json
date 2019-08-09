@@ -22,6 +22,19 @@
                 "singleQuote": true,
                 "printWidth": 100
             }
+        ],
+        "no-param-reassign": [
+            2,
+            {
+              "props": true,
+              "ignorePropertyModificationsFor": ["draft", "state", "sum"]
+            }
+        ],
+        "react/prop-types": [
+            2,
+            {
+              "ignore": ["navigation", "t", "i18n"]
+            }
         ]
     },
     "plugins": ["prettier"]

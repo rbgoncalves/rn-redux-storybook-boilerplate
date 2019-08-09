@@ -10,5 +10,6 @@ export default StyleSheet.create({
     marginTop: '20%',
     marginBottom: '10%',
     color: GREY,
+    fontSize: 20,
   },
 });

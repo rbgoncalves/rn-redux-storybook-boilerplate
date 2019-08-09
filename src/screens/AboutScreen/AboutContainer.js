@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 import gStyles from '@lusiaves/styles/globalStyles';
 import styles from './styles';
 
-const AboutComponent = () => {
+const AboutContainer = () => {
   return (
     <View style={styles.container}>
       <Text style={[gStyles.title, styles.title]}>React Native Boilerplate</Text>
@@ -23,4 +23,4 @@ const AboutComponent = () => {
   );
 };
 
-export default AboutComponent;
+export default AboutContainer;
